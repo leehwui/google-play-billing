@@ -1,17 +1,17 @@
 {
-  "name": "imdhemy/google-play-billing",
+  "name": "leehwui/google-play-billing",
   "description": "Google Play Billing",
   "authors": [
     {
-      "name": "imdhemy",
-      "email": "imdhemy@gmail.com"
+      "name": "leehwui",
+      "email": "leehwui@gmail.com"
     }
   ],
   "require": {
     "php": ">=7.1",
     "google/auth": "^1.14",
     "ext-json": "*",
-    "nesbot/carbon": "^2.41",
+    "nesbot/carbon": "^1.22.1",
     "guzzlehttp/guzzle": "^6.0|^7.0"
   },
   "require-dev": {
