@@ -54,7 +54,7 @@ final class SubscriptionCancelSurveyResult
     /**
      * @return string|null
      */
-    public function getUserInputCancelReason(): ?string
+    public function getUserInputCancelReason(): string
     {
         return $this->userInputCancelReason;
     }

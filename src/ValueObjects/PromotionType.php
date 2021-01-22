@@ -76,7 +76,7 @@ final class PromotionType
     /**
      * @return string|null
      */
-    public function getPromotionCode(): ?string
+    public function getPromotionCode(): string
     {
         return $this->promotionCode;
     }
@@ -92,7 +92,7 @@ final class PromotionType
     /**
      * @return int|null
      */
-    public function getType(): ?int
+    public function getType(): int
     {
         return $this->type;
     }

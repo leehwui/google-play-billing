@@ -67,7 +67,7 @@ final class Cancellation
     /**
      * @return CancelReason|null
      */
-    public function getCancelReason(): ?CancelReason
+    public function getCancelReason(): CancelReason
     {
         return $this->cancelReason;
     }
@@ -75,7 +75,7 @@ final class Cancellation
     /**
      * @return Time|null
      */
-    public function getUserCancellationTime(): ?Time
+    public function getUserCancellationTime(): Time
     {
         return $this->userCancellationTime;
     }
@@ -83,7 +83,7 @@ final class Cancellation
     /**
      * @return SubscriptionCancelSurveyResult|null
      */
-    public function getCancelSurveyResult(): ?SubscriptionCancelSurveyResult
+    public function getCancelSurveyResult(): SubscriptionCancelSurveyResult
     {
         return $this->cancelSurveyResult;
     }

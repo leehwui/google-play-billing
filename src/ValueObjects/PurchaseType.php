@@ -53,7 +53,7 @@ class PurchaseType
     /**
      * @return int|null
      */
-    public function getType(): ?int
+    public function getType(): int
     {
         return $this->type;
     }

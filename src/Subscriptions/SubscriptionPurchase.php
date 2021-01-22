@@ -282,7 +282,7 @@ class SubscriptionPurchase
     /**
      * @return Time|null
      */
-    public function getStartTime(): ?Time
+    public function getStartTime(): Time
     {
         return $this->startTimeMillis ? new Time($this->startTimeMillis) : null;
     }
@@ -290,7 +290,7 @@ class SubscriptionPurchase
     /**
      * @return Time|null
      */
-    public function getExpiryTime(): ?Time
+    public function getExpiryTime(): Time
     {
         return $this->expiryTimeMillis ? new Time($this->expiryTimeMillis) : null;
     }
@@ -298,7 +298,7 @@ class SubscriptionPurchase
     /**
      * @return Time|null
      */
-    public function getAutoResumeTime(): ?Time
+    public function getAutoResumeTime(): Time
     {
         return $this->autoResumeTimeMillis ? new Time($this->autoResumeTimeMillis) : null;
     }
