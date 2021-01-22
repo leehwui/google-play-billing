@@ -63,7 +63,7 @@ class Product
      * @param string|null $developerPayload
      * @throws GuzzleException
      */
-    public function acknowledge(?string $developerPayload = null): void
+    public function acknowledge(?string $developerPayload = null)
     {
         $uri = sprintf(self::URI_ACKNOWLEDGE, $this->packageName, $this->productId, $this->token);
         $options = [

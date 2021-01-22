@@ -82,7 +82,7 @@ class Subscription
     /**
      *
      */
-    public function cancel(): void
+    public function cancel()
     {
         // TODO: implement cancel method
     }
@@ -112,7 +112,7 @@ class Subscription
     /**
      *
      */
-    public function refund(): void
+    public function refund()
     {
         // TODO: implement refund method
     }
@@ -120,7 +120,7 @@ class Subscription
     /**
      *
      */
-    public function revoke(): void
+    public function revoke()
     {
         // TODO: implement revoke method
     }
